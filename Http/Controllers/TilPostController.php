@@ -6,6 +6,6 @@ class TilPostController extends Controller
 {
     public function GET_index()
     {
-        return "TIL";
+        return view('ncells::til.pages.index');
     }
 }
