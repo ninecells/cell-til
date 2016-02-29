@@ -1,6 +1,6 @@
 <?php
 
-namespace NineCells\SimpleBoard;
+namespace NineCells\Til;
 
 use App;
 use Illuminate\Support\ServiceProvider;
