@@ -61,7 +61,7 @@ class TilPostController extends Controller
 
         $input = $request->only(['title', 'content']);
         $input['category_id'] = $category->id;
-        TilPost::find($til_id)->update($input);
+        $post->update($input);
         return redirect("members/{$writer_id}/til");
     }
 
