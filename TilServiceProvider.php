@@ -7,6 +7,7 @@ use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Support\ServiceProvider;
 use NineCells\Auth\AuthServiceProvider;
 use NineCells\Auth\MemberTab;
+use NineCells\Admin\AdminServiceProvider;
 use NineCells\Admin\PackageList;
 
 use NineCells\Til\Models\TilCategory;
