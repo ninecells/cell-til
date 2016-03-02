@@ -61,6 +61,7 @@ class TilServiceProvider extends ServiceProvider
     public function register()
     {
         App::register(AuthServiceProvider::class);
+        App::register(AdminServiceProvider::class);
         App::register(PurifierServiceProvider::class);
     }
 }
