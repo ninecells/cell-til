@@ -5,8 +5,8 @@ namespace NineCells\Til;
 use App;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Support\ServiceProvider;
-use NineCells\Auth\MemberServiceProvider;
-use NineCells\Auth\MemberTab;
+use NineCells\Member\MemberServiceProvider;
+use NineCells\Member\MemberTab;
 use NineCells\Admin\AdminServiceProvider;
 use NineCells\Admin\PackageList;
 
