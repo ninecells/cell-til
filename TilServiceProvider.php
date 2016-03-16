@@ -5,7 +5,7 @@ namespace NineCells\Til;
 use App;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Support\ServiceProvider;
-use NineCells\Auth\AuthServiceProvider;
+use NineCells\Auth\MemberServiceProvider;
 use NineCells\Auth\MemberTab;
 use NineCells\Admin\AdminServiceProvider;
 use NineCells\Admin\PackageList;
@@ -61,7 +61,7 @@ class TilServiceProvider extends ServiceProvider
 
     public function register()
     {
-        App::register(AuthServiceProvider::class);
+        App::register(MemberServiceProvider::class);
         App::register(AdminServiceProvider::class);
         App::register(PurifierServiceProvider::class);
     }
